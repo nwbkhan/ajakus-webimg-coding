@@ -1,0 +1,17 @@
+app:
+  drivers:
+    chrome-path: /home/nwb/chromedriver
+    firefox-path: /home/nwb/geckodriver
+spring:
+  application:
+    name: webpage-capture
+
+  datasource:
+    username: ajakus_web_capture_user
+    password: ajakus_web_capture_user
+    url: jdbc:postgresql://localhost:5432/ajakus_web_capture_db
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
