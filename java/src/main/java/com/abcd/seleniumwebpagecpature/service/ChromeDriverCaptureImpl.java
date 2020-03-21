@@ -38,9 +38,9 @@ public class ChromeDriverCaptureImpl implements ChromeDriverCapture {
     public File capture(String url) throws IOException {
         logger.info("Capturing for url {}", url);
         saveUrlLog(url);
-        firefoxDriver.get(url);
+        chromeDriver.get(url);
         final File webCapturedScreen =
-                firefoxDriver.getScreenshotAs(OutputType.FILE);
+                chromeDriver.getScreenshotAs(OutputType.FILE);
         return webCapturedScreen;
     }
 
