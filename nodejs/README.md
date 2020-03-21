@@ -1,4 +1,4 @@
-# ajakus-webimg-coding
+# Ajakus-webimg-coding
 Ajakus web to image coding
 
 
