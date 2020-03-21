@@ -3,9 +3,9 @@ Ajakus web to image coding
 
 
 
-Implemented solution in Java (Spring Boot) using Selenium Driver (Chrome/FireFox).
+Implemented solution in Java (Spring Boot) using Selenium Driver (Chrome/Firefox).
 
-> Total time taken - 6 hr // this time all goes looking into documentation part because i am familiar with JS but not worked in NodeJs.
+> Total time taken - 4 hr // this time all goes looking into documentation part because i am familiar with JS but not worked in NodeJs.
 
 ##Requirements
 
